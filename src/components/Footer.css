@@ -1,0 +1,80 @@
+footer {
+  background-color: #1e293b; /* Slate 900 */
+  color: #ffffff; /* White */
+  font-family: 'Poppins', sans-serif; /* New font style */
+}
+
+footer .footer-container {
+  max-width: 72rem; /* max-w-6xl */
+  margin: 0 auto; /* mx-auto */
+  padding: 3rem 1rem; /* Increased padding for more space around the footer */
+  display: flex;
+  flex-direction: column; /* Adds spacing between sections */
+}
+
+footer h2, footer h3 {
+  margin-bottom: 1.5rem; /* Increased space below headings */
+}
+
+footer p {
+  color: #9ca3af; /* text-gray-300 */
+  margin-bottom: 1.5rem; /* Increased space below paragraphs */
+}
+
+footer a {
+  color: #9ca3af; /* text-gray-300 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #60a5fa; /* hover:text-blue-400 */
+}
+
+footer .footer-grid {
+  display: flex;
+  justify-content: space-between; /* Space between columns */
+  gap: 10rem; /* Increased space between items */
+  margin-bottom: 2rem; /* Adds space below the grid */
+}
+
+footer .footer-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Increased spacing between column content */
+}
+
+footer ul {
+  list-style: none; /* Removes dots (default bullets) */
+  display: flex; /* Makes the list horizontal */
+  gap: 2rem; /* Increased spacing between items */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+}
+
+footer ul li a {
+  color: #9ca3af; /* text-gray-300 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #60a5fa; /* hover:text-blue-400 */
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 2rem; /* Increased space between social icons */
+}
+
+footer .divider {
+  border-top: 1px solid #4b5563; /* Border color similar to gray-700 */
+  margin: 3rem 50; /* Increased vertical space around the divider */
+}
+
+footer .text-center {
+  text-align: center;
+  color: #9ca3af; /* text-gray-400 */
+  margin-top: 0rem; /* Increased space above the center text */
+}
